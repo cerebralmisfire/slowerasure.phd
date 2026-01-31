@@ -1,6 +1,9 @@
 site_name: "slowerasure.phd"
 site_author: "Bram J. De Smet"
 site_description: "Slow Erasure: Identity, Agency & Episteme in Settler-Colonial Genocide by Attrition"
+site_url: "https://slowerasure.phd"
+repo_url: "https://github.com/cerebralmisfire/slowerasure.phd"
+repo_name: "cerebralmisfire/slowerasure.phd"
 copyright: "© 2025 Bram J. De Smet - CC BY 4.0"
 
 docs_dir: docs

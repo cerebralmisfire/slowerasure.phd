@@ -1,0 +1,27 @@
+# MkDocs output
+site/
+
+# Python
+venv/
+__pycache__/
+*.py[cod]
+
+# Quarto (legacy)
+_book/
+_freeze/
+/.quarto/
+**/*.quarto_ipynb
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Local settings
+.claude/

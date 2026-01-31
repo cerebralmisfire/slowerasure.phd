@@ -1,0 +1,127 @@
+site_name: "slowerasure.phd"
+site_author: "Bram J. De Smet"
+site_description: "Slow Erasure: Identity, Agency & Episteme in Settler-Colonial Genocide by Attrition"
+copyright: "© 2025 Bram J. De Smet - CC BY 4.0"
+
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: en
+  favicon: favicon.svg
+  logo: favicon.svg
+  font:
+    text: Roboto
+    code: Roboto Mono
+  palette:
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - navigation.instant
+    - navigation.path
+    - search.suggest
+    - search.highlight
+    - toc.follow
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - search:
+      lang: en
+  - glightbox
+  - bibtex:
+      bib_file: "references.bib"
+      csl_file: "chicago-author-date.csl"
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - footnotes
+  - tables
+  - md_in_html
+  - attr_list
+  - toc:
+      permalink: true
+      toc_depth: 3
+
+nav:
+  - Home: index.md
+  - Dedication: dedication.md
+  - Abstract: abstract.md
+  - Abbreviations: abbreviations.md
+  - List of Figures: figures.md
+  - "Chapter 1 — Introduction":
+      - "1. Introduction": chapter_1.md
+      - "1.1 The Relevance of \"Yet Another Study\" on Palestine": chapter_1-1.md
+      - "1.2 The Settler-Genocide Nexus": chapter_1-2.md
+      - "1.3 Peace Research: Rethinking the Frameworks": chapter_1-3.md
+      - "1.4 Design and Structure": chapter_1-4.md
+  - "Chapter 2 — Methods and Ethics":
+      - "2. Methods and Ethics in the Study of Slow Erasure": chapter_2.md
+      - "2.1 Ethnography as Methodology": chapter_2-1.md
+      - "2.2 Listen, See, Interact, and Read": chapter_2-2.md
+      - "2.3 Positionality": chapter_2-3.md
+      - "2.4 Research Ethics and Risk Management": chapter_2-4.md
+      - "2.5 Conclusion": chapter_2-5.md
+  - "Chapter 3 — From the River to the Sea":
+      - "3. From the River to the Sea": chapter_3.md
+      - "3.1 Settler-colonialism": chapter_3-1.md
+      - "3.2 Pre-Nakba and the Rise of Settler-colonialism": chapter_3-2.md
+      - "3.3 From the Nakba to Oslo": chapter_3-3.md
+      - "3.4 Oppressing Palestinians": chapter_3-4.md
+  - "Chapter 4 — Towards a Conceptualisation of Slow Erasure":
+      - "4. Towards a Conceptualisation of Slow Erasure": chapter_4.md
+      - "4.1 Locating Slow Erasure in the Frame of Genocide": chapter_4-1.md
+      - "4.2 The Subjugation of Bodies": chapter_4-2.md
+      - "4.3 On Life, and Death": chapter_4-3.md
+      - "4.4 Grievability of the Body": chapter_4-4.md
+      - "4.5 Maiming and Torture": chapter_4-5.md
+      - "4.6 Vulnerability and Resistance": chapter_4-6.md
+      - "4.7 Conclusion": chapter_4-7.md
+  - "Chapter 5 — The Struggle Against Slow Erasure":
+      - "5. The Struggle Against Slow Erasure": chapter_5.md
+      - "5.1 The Architecture of Eroding Bodily Mobility, Identity and Agency": chapter_5-1.md
+      - "5.2 Erasing Episteme": chapter_5-2.md
+      - "5.3 Conclusion": chapter_5-3.md
+  - "Chapter 6 — If Not to Disable, Then to Kill":
+      - "6. If Not to Disable, Then to Kill": chapter_6.md
+      - "6.1 Disabling Palestinians": chapter_6-1.md
+      - "6.2 On Death": chapter_6-2.md
+      - "6.3 Conclusion": chapter_6-3.md
+  - "Chapter 7 — Palestinians in the Microcosm of Captivity":
+      - "7. Palestinians in the Microcosm of Captivity": chapter_7.md
+      - "7.1 Arresting and Breaking the Body": chapter_7-1.md
+      - "7.2 The Body under Pressure": chapter_7-2.md
+      - "7.3 The Weaponisation of Care": chapter_7-3.md
+      - "7.4 Sexual Torture": chapter_7-4.md
+      - "7.5 Conclusion": chapter_7-5.md
+  - "Chapter 8 — Palestine Will Be Free":
+      - "8. Palestine Will Be Free": chapter_8.md
+      - "8.1 Sumud, and the Resistance Against Slow Erasure": chapter_8-1.md
+      - "8.2 Resistance in Prison": chapter_8-2.md
+      - "8.3 Conclusion": chapter_8-3.md
+  - "Chapter 9 — Conclusion":
+      - "9. Conclusion: Slow Erasure": chapter_9.md
+      - "9.1 Slow Erasure and the Resistance Against It": chapter_9-1.md
+      - "9.2 Rethinking Violence Through Slow Erasure": chapter_9-2.md
+      - "9.3 Moving Forwards": chapter_9-3.md
+      - "9.4 Closing Reflections: Toward a Decolonial Future": chapter_9-4.md
+  - Bibliography: bibliography.md

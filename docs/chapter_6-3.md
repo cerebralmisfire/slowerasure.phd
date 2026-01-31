@@ -1,0 +1,11 @@
+## 6.3 Conclusion
+
+In this chapter, I have shown how the Palestinian body, whether disabled, maimed, or killed, functions as a site through which Israeli settler-colonial power is exercised and extended. These are not random or incidental harms. Rather, they are calculated mechanisms of governance that aim to dismantle Palestinian agency, autonomy, and continuity. Through targeted shootings, the denial of medical care, the withholding of corpses, and the criminalisation of mourning, bodily harm is stretched across life and death, embedded in a logic of slow erasure.
+
+By maiming bodies, the Israeli state fragments the social and political fabric of Palestinian life. It restricts mobility, fractures collectivity, and renders individuals increasingly dependent on the very structures that oppress them. Death, too, becomes a field of control. The sovereign intervenes not only in the moment of dying but in the aftermath, delaying funerals, withholding bodies, and regulating grief. These practices are designed not only to punish but to erase, to sever the ties between the living and the dead, and to strip both of their political meaning.
+
+I argue that these practices are not isolated, but form part of a broader settler-colonial strategy to dehumanise, dominate, and ultimately eliminate Indigenous Palestinian presence. Violence here is not only spectacular or sudden, it is also slow, cumulative, and deeply entangled with the everyday. Through this lens, I read the Palestinian body as a battleground where power is inscribed not only through killing, but also through injury, abandonment, and the refusal of care.
+
+But despite these efforts, Palestinian communities continue to resist. The practices of mourning, the assertion of martyrdom, and the ongoing presence of sumud all speak to an enduring refusal to be erased. The body, living or dead, remains a site of memory, meaning, and struggle.
+
+In the next chapter, I turn to another domain where this struggle over bodily and psychological sovereignty plays out: the prison. There, through interrogation, torture, and prolonged incarceration, the state intensifies its efforts to fragment the self and neutralise resistance.

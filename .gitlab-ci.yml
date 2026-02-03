@@ -18,7 +18,7 @@ build-deploy:
   before_script:
     - apt-get update && apt-get install -y pandoc openssh-client rsync
     - pip install -r requirements.txt
-    - echo "$SSH_KEY" | base64 -d > /tmp/ssh_key
+    - echo "$SSH_KEY" > /tmp/ssh_key
     - chmod 600 /tmp/ssh_key
     - eval $(ssh-agent -s)
     - ssh-add /tmp/ssh_key

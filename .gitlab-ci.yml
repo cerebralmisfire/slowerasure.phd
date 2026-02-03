@@ -1,0 +1,33 @@
+stages:
+  - build
+  - deploy
+
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+
+cache:
+  paths:
+    - .cache/pip
+
+build-deploy:
+  stage: deploy
+  image: python:3.12
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+    - if: $CI_PIPELINE_SOURCE == "web"
+  before_script:
+    - apt-get update && apt-get install -y pandoc openssh-client rsync
+    - pip install -r requirements.txt
+    - echo "$SSH_KEY" | base64 -d > /tmp/ssh_key
+    - chmod 600 /tmp/ssh_key
+    - eval $(ssh-agent -s)
+    - ssh-add /tmp/ssh_key
+  script:
+    - mkdocs build --strict
+    - mkdir -p ~/.ssh
+    - ssh-keyscan -p "$SSH_PORT" "$SSH_HOST" >> ~/.ssh/known_hosts 2>/dev/null || ssh-keyscan "$SSH_HOST" >> ~/.ssh/known_hosts
+    - chmod 644 ~/.ssh/known_hosts
+    - rsync -avz --delete
+        -e "ssh -p $SSH_PORT"
+        site/
+        $SSH_USER@$SSH_HOST:$REMOTE_PATH

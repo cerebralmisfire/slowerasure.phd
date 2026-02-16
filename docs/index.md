@@ -30,7 +30,17 @@ ACADEMIC DISSERTATION: Presented, with the permission of the Faculty of Social S
 
 !!! quote "Cite as"
 
-    De Smet, Bram J. 2025. _Slow Erasure: Identity, Agency & Episteme in Settler Colonial-Genocide by Attrition_. TAPRI Studies in Peace and Conflict Research 113. Tampere: Tampere Peace Research Institute.
+    @phdthesis{desmet2025,
+        title = {Slow {{Erasure}}: {{Identity}}, {{Agency}} and {{Episteme}} in {{Settler-Colonial Genocide}} by {{Attrition}}},
+        author = {De Smet, Bram J},
+        year = 2025,
+        series = {{{TAPRI Studies}} in {{Peace}} and {{Conflict Research}}},
+        number = {113},
+        address = {Tampere},
+        isbn = {978-952-03-4306-4},
+        school = {Tampere University}
+    }
+
 
 ## PDF Version
 

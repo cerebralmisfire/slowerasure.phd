@@ -20,21 +20,38 @@ The official PDF is available via Tampere University: [https://urn.fi/URN:ISBN:9
 
 ## Citation
 
-De Smet, Bram J. 2025. *Slow Erasure: Identity, Agency & Episteme in Settler Colonial-Genocide by Attrition*. TAPRI Studies in Peace and Conflict Research 113. Tampere: Tampere Peace Research Institute.
-
+'''
+    @phdthesis{desmet2025,
+        title = {Slow {{Erasure}}: {{Identity}}, {{Agency}} and {{Episteme}} in {{Settler-Colonial Genocide}} by {{Attrition}}},
+        author = {De Smet, Bram J},
+        year = 2025,
+        series = {{{TAPRI Studies}} in {{Peace}} and {{Conflict Research}}},
+        number = {113},
+        address = {Tampere},
+        isbn = {978-952-03-4306-4},
+        school = {Tampere University}
+    }
+'''
 ## Setup
 
-### Prerequisites
+### Dependencies
 
-- Python 3.12+
-- Pandoc (`sudo pacman -S pandoc` on Arch, `sudo apt install pandoc` on Debian/Ubuntu)
-
-### Install dependencies
+**Official repos:**
 
 ```bash
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+sudo pacman -S mkdocs mkdocs-material pandoc
+```
+
+**AUR:**
+
+```bash
+yay -S mkdocs-glightbox python-selectolax
+```
+
+**pip** (not packaged in repos or AUR):
+
+```bash
+pip install mkdocs-bibtex
 ```
 
 ### Local development

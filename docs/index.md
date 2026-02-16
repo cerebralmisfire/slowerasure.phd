@@ -38,7 +38,8 @@ ACADEMIC DISSERTATION: Presented, with the permission of the Faculty of Social S
         number = {113},
         address = {Tampere},
         isbn = {978-952-03-4306-4},
-        school = {Tampere University}
+        school = {Tampere University},
+        url = {https://trepo.tuni.fi/handle/10024/232478?locale=len}
     }
 
 

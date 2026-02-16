@@ -22,7 +22,7 @@
 
 ACADEMIC DISSERTATION: Presented, with the permission of the Faculty of Social Sciences of Tampere University, for public discussion in auditorium K104 of the Linna building, Kalevantie 5, Tampere, on 19 January 2026, at 13 o’clock.
 
-**Tampere Peace Research Institute - TAPRI Studies in Peace and Conflict Research - No. 132, 2025**
+**Tampere Peace Research Institute - TAPRI Studies in Peace and Conflict Research - No. 113, 2025**
 
     ISBN 978-952-03-4305-7 (print)
     ISBN 978-952-03-4306-4 (pdf)

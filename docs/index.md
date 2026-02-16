@@ -30,7 +30,6 @@ ACADEMIC DISSERTATION: Presented, with the permission of the Faculty of Social S
 
 !!! quote "Cite as"
 
-    ```bibtex
     &#64;phdthesis{desmet2025,
         title = {Slow {{Erasure}}: {{Identity}}, {{Agency}} and {{Episteme}} in {{Settler-Colonial Genocide}} by {{Attrition}}},
         author = {De Smet, Bram J},
@@ -41,7 +40,6 @@ ACADEMIC DISSERTATION: Presented, with the permission of the Faculty of Social S
         isbn = {978-952-03-4306-4},
         school = {Tampere University}
     }
-    ```
 
 
 ## PDF Version

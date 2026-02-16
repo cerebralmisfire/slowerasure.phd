@@ -31,7 +31,8 @@ ACADEMIC DISSERTATION: Presented, with the permission of the Faculty of Social S
 !!! quote "Cite as"
 
     <pre>&#64;phdthesis{desmet2025,
-        title = {Slow Erasure: Identity, Agency and Episteme in Settler-Colonial Genocide by Attrition},
+        title = {Slow Erasure: Identity, Agency and Episteme in 
+                Settler-Colonial Genocide by Attrition},
         author = {De Smet, Bram J},
         year = 2025,
         series = {TAPRI Studies in Peace and Conflict Research},

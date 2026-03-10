@@ -1,3 +1,7 @@
+---
+description: "PhD thesis by Bram J. De Smet (Tampere University, 2026) introducing the concept of slow erasure to analyse Israeli settler-colonial genocide by attrition against Palestinians — examining identity, agency, and episteme."
+---
+
 # Slow Erasure: Identity, Agency & Episteme in Settler-Colonial Genocide by Attrition
 
 ![Slow Erasure](images/cover.jpg)

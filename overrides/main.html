@@ -15,4 +15,88 @@
   })();
 </script>
 <!-- End Matomo Code -->
+
+<!-- SEO: Canonical URL -->
+<link rel="canonical" href="{{ page.canonical_url }}">
+
+<!-- SEO: Open Graph -->
+<meta property="og:type" content="{{ 'website' if page.is_homepage else 'article' }}">
+<meta property="og:site_name" content="{{ config.site_name }}">
+<meta property="og:title" content="{{ page.title }}">
+<meta property="og:description" content="{{ page.meta.description if page.meta and page.meta.description else config.site_description }}">
+<meta property="og:url" content="{{ page.canonical_url }}">
+<meta property="og:image" content="{{ config.site_url }}images/cover.jpg">
+<meta property="og:image:alt" content="Cover of Slow Erasure by Bram J. De Smet">
+<meta property="og:locale" content="en_US">
+
+<!-- SEO: Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page.title }}">
+<meta name="twitter:description" content="{{ page.meta.description if page.meta and page.meta.description else config.site_description }}">
+<meta name="twitter:image" content="{{ config.site_url }}images/cover.jpg">
+<meta name="twitter:image:alt" content="Cover of Slow Erasure by Bram J. De Smet">
+
+<!-- SEO: Google Scholar / academic citation tags -->
+<meta name="citation_title" content="Slow Erasure: Identity, Agency and Episteme in Settler-Colonial Genocide by Attrition">
+<meta name="citation_author" content="De Smet, Bram J.">
+<meta name="citation_publication_date" content="2026">
+<meta name="citation_dissertation_institution" content="Tampere University">
+<meta name="citation_isbn" content="978-952-03-4306-4">
+<meta name="citation_pdf_url" content="https://trepo.tuni.fi/handle/10024/232478">
+<meta name="citation_language" content="en">
+
+<!-- SEO: JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  {% if page.is_homepage %}
+  "@type": "Thesis",
+  "name": "Slow Erasure: Identity, Agency and Episteme in Settler-Colonial Genocide by Attrition",
+  "description": "{{ config.site_description }}",
+  "author": {
+    "@type": "Person",
+    "name": "Bram J. De Smet",
+    "sameAs": "https://orcid.org/0000-0002-4364-6827"
+  },
+  "datePublished": "2026-01-19",
+  "inSupportOf": "Doctor of Philosophy",
+  "educationalLevel": "PhD",
+  "publisher": {
+    "@type": "CollegeOrUniversity",
+    "name": "Tampere University",
+    "url": "https://www.tuni.fi"
+  },
+  "url": "{{ config.site_url }}",
+  "sameAs": "https://trepo.tuni.fi/handle/10024/232478",
+  "isbn": "978-952-03-4306-4",
+  "image": "{{ config.site_url }}images/cover.jpg",
+  "inLanguage": "en",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isAccessibleForFree": true,
+  "about": [
+    {"@type": "Thing", "name": "Palestine"},
+    {"@type": "Thing", "name": "settler-colonialism"},
+    {"@type": "Thing", "name": "genocide"},
+    {"@type": "Thing", "name": "peace research"},
+    {"@type": "Thing", "name": "decolonial theory"}
+  ]
+  {% else %}
+  "@type": "Article",
+  "headline": "{{ page.title }}",
+  "description": "{{ page.meta.description if page.meta and page.meta.description else config.site_description }}",
+  "author": {
+    "@type": "Person",
+    "name": "Bram J. De Smet",
+    "sameAs": "https://orcid.org/0000-0002-4364-6827"
+  },
+  "isPartOf": {
+    "@type": "Thesis",
+    "name": "Slow Erasure: Identity, Agency and Episteme in Settler-Colonial Genocide by Attrition",
+    "url": "{{ config.site_url }}"
+  },
+  "url": "{{ page.canonical_url }}",
+  "inLanguage": "en"
+  {% endif %}
+}
+</script>
 {% endblock %}

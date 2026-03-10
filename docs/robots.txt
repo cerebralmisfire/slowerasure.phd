@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://slowerasure.phd/sitemap.xml

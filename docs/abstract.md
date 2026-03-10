@@ -1,3 +1,7 @@
+---
+description: "Abstract of 'Slow Erasure' — a PhD thesis developing the concept of slow erasure to describe how settler-colonial regimes eliminate Indigenous identity, agency, and episteme, grounded in the case of Palestine."
+---
+
 # Abstract
 
 This thesis introduces and develops the concept of slow erasure to describe the layered, structural, and ongoing processes through which settler-colonial regimes seek to eliminate Indigenous identity, agency, and episteme. Building on and expanding the frameworks of genocide by attrition and cultural genocide, slow erasure captures the accumulative and often invisible forms of violence that operate through spatial control, epistemic suppression, bodily harm, and bureaucratic governance. While the concept is broadly applicable to other settler-colonial contexts, this thesis grounds its analysis in the case of Palestine, examining how Israeli settler-colonialism systematically unmakes the conditions that sustain Palestinian presence, memory, and resistance.
